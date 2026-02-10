@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>CMS Policy Updates Feed</title>
+<link>https://www.cms.gov/newsroom</link>
+<description>CMS Policy Updates</description>
+<item>
+<title>CMS Updates Medicare Advantage Star Ratings for 2026</title>
+<link>https://www.cms.gov/newsroom/ma-star-ratings</link>
+<pubDate>Wed, 15 Jan 2025 09:00:00 GMT</pubDate>
+<description>CMS has finalized the 2026 Star Ratings measures</description>
+<category>Medicare Advantage</category>
+</item>
+<item>
+<title>Prior Authorization Requirements for Advanced Imaging</title>
+<link>https://www.cms.gov/newsroom/prior-auth-imaging</link>
+<pubDate>Mon, 13 Jan 2025 14:30:00 GMT</pubDate>
+<description>MA plans must implement prior auth for MRI CT and PET scans</description>
+<category>Prior Authorization</category>
+</item>
+<item>
+<title>Telehealth Services Extended Through 2025</title>
+<link>https://www.cms.gov/newsroom/telehealth</link>
+<pubDate>Fri, 10 Jan 2025 11:00:00 GMT</pubDate>
+<description>CMS extends telehealth flexibilities through December 2025</description>
+<category>Telehealth</category>
+</item>
+<item>
+<title>Part D Drug Coverage Updates</title>
+<link>https://www.cms.gov/newsroom/part-d</link>
+<pubDate>Thu, 09 Jan 2025 10:15:00 GMT</pubDate>
+<description>New Part D rules cap insulin costs at 35 dollars</description>
+<category>Prescription Drugs</category>
+</item>
+<item>
+<title>Network Adequacy Standards Strengthened</title>
+<link>https://www.cms.gov/newsroom/network</link>
+<pubDate>Tue, 07 Jan 2025 13:45:00 GMT</pubDate>
+<description>MA plans must meet stricter network requirements in 2026</description>
+<category>Network Adequacy</category>
+</item>
+</channel>
+</rss>

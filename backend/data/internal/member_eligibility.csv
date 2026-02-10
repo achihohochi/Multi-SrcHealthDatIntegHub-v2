@@ -1,0 +1,21 @@
+member_id,first_name,last_name,dob,plan_type,status,effective_date,termination_date,zip_code,email,phone
+BSC100001,James,Anderson,1985-03-15,Gold PPO,active,2024-01-01,,94612,james.anderson@email.com,510-555-0101
+BSC100002,Maria,Garcia,1978-07-22,Silver HMO,active,2024-02-15,,94501,maria.garcia@email.com,510-555-0102
+BSC100003,Robert,Chen,1992-11-08,Bronze EPO,active,2024-03-01,,94704,robert.chen@email.com,510-555-0103
+BSC100004,Jennifer,Williams,1965-05-30,Gold PPO,active,2023-06-01,,94619,jennifer.williams@email.com,510-555-0104
+BSC100005,Michael,Taylor,1988-09-14,Platinum PPO,active,2024-01-15,,94610,michael.taylor@email.com,510-555-0105
+BSC100006,Linda,Martinez,1975-12-03,Silver HMO,inactive,2023-08-01,2024-12-31,94606,linda.martinez@email.com,510-555-0106
+BSC100007,David,Brown,1990-04-27,Gold PPO,active,2024-04-01,,94607,david.brown@email.com,510-555-0107
+BSC100008,Sarah,Johnson,1982-08-19,Bronze EPO,active,2024-05-01,,94601,sarah.johnson@email.com,510-555-0108
+BSC100009,John,Davis,1970-01-11,Silver HMO,active,2023-12-01,,94618,john.davis@email.com,510-555-0109
+BSC100010,Emily,Rodriguez,1995-06-25,Gold PPO,active,2024-06-15,,94611,emily.rodriguez@email.com,510-555-0110
+BSC100011,William,Miller,1987-10-07,Platinum PPO,active,2024-02-01,,94609,william.miller@email.com,510-555-0111
+BSC100012,Jessica,Wilson,1973-03-29,Silver HMO,active,2023-09-15,,94602,jessica.wilson@email.com,510-555-0112
+BSC100013,Christopher,Moore,1991-12-16,Bronze EPO,inactive,2024-01-01,2024-11-30,94605,christopher.moore@email.com,510-555-0113
+BSC100014,Amanda,Taylor,1980-07-04,Gold PPO,active,2024-03-15,,94608,amanda.taylor@email.com,510-555-0114
+BSC100015,Daniel,Anderson,1968-11-21,Silver HMO,active,2023-10-01,,94613,daniel.anderson@email.com,510-555-0115
+BSC100016,Michelle,Thomas,1993-02-14,Gold PPO,active,2024-07-01,,94621,michelle.thomas@email.com,510-555-0116
+BSC100017,Matthew,Jackson,1977-09-08,Platinum PPO,active,2024-01-20,,94603,matthew.jackson@email.com,510-555-0117
+BSC100018,Lisa,White,1986-05-12,Bronze EPO,active,2024-08-01,,94620,lisa.white@email.com,510-555-0118
+BSC100019,Kevin,Harris,1972-08-30,Silver HMO,active,2023-11-15,,94614,kevin.harris@email.com,510-555-0119
+BSC100020,Nancy,Martin,1989-04-18,Gold PPO,active,2024-04-15,,94615,nancy.martin@email.com,510-555-0120

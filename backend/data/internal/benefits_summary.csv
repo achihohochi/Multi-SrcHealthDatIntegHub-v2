@@ -1,0 +1,61 @@
+plan_type,service_category,service_description,copay,coinsurance,deductible,out_of_pocket_max,prior_auth_required,notes
+Gold PPO,Primary Care,Office visit - primary care physician,35,0%,0,6000,No,Preventive care covered at 100%
+Gold PPO,Specialist,Office visit - specialist,65,0%,0,6000,No,
+Gold PPO,Emergency,Emergency room visit,150,0%,0,6000,No,Waived if admitted
+Gold PPO,Urgent Care,Urgent care facility visit,65,0%,0,6000,No,
+Gold PPO,Lab Tests,Laboratory tests,0,0%,0,6000,No,When ordered by physician
+Gold PPO,Imaging,X-rays,50,0%,0,6000,No,
+Gold PPO,Imaging,MRI/CT/PET scans,250,20%,500,6000,Yes,After deductible
+Gold PPO,Surgery,Inpatient surgery,500,20%,500,6000,Yes,Per admission
+Gold PPO,Surgery,Outpatient surgery,250,20%,500,6000,Yes,
+Gold PPO,Physical Therapy,Physical therapy visit,40,0%,0,6000,No,Up to 30 visits/year
+Gold PPO,Mental Health,Mental health office visit,35,0%,0,6000,No,Same as primary care
+Gold PPO,Prescription Drugs,Tier 1 (Generic),15,0%,0,6000,No,30-day supply
+Gold PPO,Prescription Drugs,Tier 2 (Preferred Brand),50,0%,0,6000,No,30-day supply
+Gold PPO,Prescription Drugs,Tier 3 (Non-Preferred Brand),85,0%,0,6000,Some,30-day supply
+Gold PPO,Prescription Drugs,Tier 4 (Specialty),150,30%,0,6000,Yes,30-day supply
+Silver HMO,Primary Care,Office visit - primary care physician,45,0%,0,8000,No,Must see in-network
+Silver HMO,Specialist,Office visit - specialist,75,0%,0,8000,Yes,Referral required
+Silver HMO,Emergency,Emergency room visit,200,0%,0,8000,No,Waived if admitted
+Silver HMO,Urgent Care,Urgent care facility visit,75,0%,0,8000,No,
+Silver HMO,Lab Tests,Laboratory tests,25,0%,0,8000,No,When ordered by physician
+Silver HMO,Imaging,X-rays,75,0%,0,8000,No,
+Silver HMO,Imaging,MRI/CT/PET scans,350,0%,1000,8000,Yes,After deductible
+Silver HMO,Surgery,Inpatient surgery,750,0%,1000,8000,Yes,Per admission
+Silver HMO,Surgery,Outpatient surgery,350,0%,1000,8000,Yes,
+Silver HMO,Physical Therapy,Physical therapy visit,50,0%,0,8000,Yes,Up to 20 visits/year
+Silver HMO,Mental Health,Mental health office visit,45,0%,0,8000,No,Same as primary care
+Silver HMO,Prescription Drugs,Tier 1 (Generic),20,0%,0,8000,No,30-day supply
+Silver HMO,Prescription Drugs,Tier 2 (Preferred Brand),65,0%,0,8000,No,30-day supply
+Silver HMO,Prescription Drugs,Tier 3 (Non-Preferred Brand),100,0%,0,8000,Some,30-day supply
+Silver HMO,Prescription Drugs,Tier 4 (Specialty),200,30%,0,8000,Yes,30-day supply
+Bronze EPO,Primary Care,Office visit - primary care physician,0,30%,6500,8700,No,After deductible
+Bronze EPO,Specialist,Office visit - specialist,0,30%,6500,8700,No,After deductible
+Bronze EPO,Emergency,Emergency room visit,0,30%,6500,8700,No,After deductible
+Bronze EPO,Urgent Care,Urgent care facility visit,0,30%,6500,8700,No,After deductible
+Bronze EPO,Lab Tests,Laboratory tests,0,30%,6500,8700,No,After deductible
+Bronze EPO,Imaging,X-rays,0,30%,6500,8700,No,After deductible
+Bronze EPO,Imaging,MRI/CT/PET scans,0,30%,6500,8700,Yes,After deductible
+Bronze EPO,Surgery,Inpatient surgery,0,30%,6500,8700,Yes,After deductible
+Bronze EPO,Surgery,Outpatient surgery,0,30%,6500,8700,Yes,After deductible
+Bronze EPO,Physical Therapy,Physical therapy visit,0,30%,6500,8700,No,After deductible - 20 visits/year
+Bronze EPO,Mental Health,Mental health office visit,0,30%,6500,8700,No,After deductible
+Bronze EPO,Prescription Drugs,Tier 1 (Generic),15,0%,300,8700,No,Drug deductible separate
+Bronze EPO,Prescription Drugs,Tier 2 (Preferred Brand),50,0%,300,8700,No,Drug deductible separate
+Bronze EPO,Prescription Drugs,Tier 3 (Non-Preferred Brand),85,30%,300,8700,Some,After drug deductible
+Bronze EPO,Prescription Drugs,Tier 4 (Specialty),250,30%,300,8700,Yes,After drug deductible
+Platinum PPO,Primary Care,Office visit - primary care physician,25,0%,0,4000,No,Preventive care covered at 100%
+Platinum PPO,Specialist,Office visit - specialist,45,0%,0,4000,No,
+Platinum PPO,Emergency,Emergency room visit,100,0%,0,4000,No,Waived if admitted
+Platinum PPO,Urgent Care,Urgent care facility visit,45,0%,0,4000,No,
+Platinum PPO,Lab Tests,Laboratory tests,0,0%,0,4000,No,When ordered by physician
+Platinum PPO,Imaging,X-rays,25,0%,0,4000,No,
+Platinum PPO,Imaging,MRI/CT/PET scans,150,10%,0,4000,Yes,
+Platinum PPO,Surgery,Inpatient surgery,300,10%,0,4000,Yes,Per admission
+Platinum PPO,Surgery,Outpatient surgery,150,10%,0,4000,Yes,
+Platinum PPO,Physical Therapy,Physical therapy visit,30,0%,0,4000,No,Up to 40 visits/year
+Platinum PPO,Mental Health,Mental health office visit,25,0%,0,4000,No,Same as primary care
+Platinum PPO,Prescription Drugs,Tier 1 (Generic),10,0%,0,4000,No,30-day supply
+Platinum PPO,Prescription Drugs,Tier 2 (Preferred Brand),40,0%,0,4000,No,30-day supply
+Platinum PPO,Prescription Drugs,Tier 3 (Non-Preferred Brand),70,0%,0,4000,Some,30-day supply
+Platinum PPO,Prescription Drugs,Tier 4 (Specialty),100,20%,0,4000,Yes,30-day supply
