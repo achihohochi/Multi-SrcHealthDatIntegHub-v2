@@ -274,7 +274,7 @@ def main():
     
     # Valid CSV
     df_valid = pd.DataFrame({
-        'member_id': ['BSC100001', 'BSC100002'],
+        'member_id': ['WHP100001', 'WHP100002'],
         'status': ['active', 'inactive'],
         'plan_type': ['Gold PPO', 'Silver HMO']
     })
@@ -283,7 +283,7 @@ def main():
     
     # Invalid CSV - missing column
     df_invalid = pd.DataFrame({
-        'member_id': ['BSC100001'],
+        'member_id': ['WHP100001'],
         'status': ['active']
     })
     is_valid, errors = validator.validate_csv(df_invalid, ['member_id', 'status', 'plan_type'])

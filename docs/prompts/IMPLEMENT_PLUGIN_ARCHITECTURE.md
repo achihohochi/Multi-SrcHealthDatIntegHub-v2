@@ -179,7 +179,7 @@ class DataSource(ABC):
             >>> df = source.load("data/members.csv")
             >>> content = source.extract_content_for_tagging(df)
             >>> print(content[:100])
-            "member_id first_name last_name plan_type status BSC100001 James Anderson Gold PPO active..."
+            "member_id first_name last_name plan_type status WHP100001 James Anderson Gold PPO active..."
         """
         pass
     
@@ -216,7 +216,7 @@ class DataSource(ABC):
             >>> print(docs[0])
             {
                 "id": "member_eligibility_1",
-                "text": "member_id: BSC100001. first_name: James...",
+                "text": "member_id: WHP100001. first_name: James...",
                 "metadata": {
                     "domain": "eligibility",
                     "source": "data/members.csv",
@@ -586,7 +586,7 @@ def test_csv_source():
     docs = source.prepare_documents(df, metadata, "data/internal/member_eligibility.csv")
     assert len(docs) == 20
     assert docs[0]["id"] == "member_eligibility_1"
-    assert "BSC100001" in docs[0]["text"]
+    assert "WHP100001" in docs[0]["text"]
     
     print("✓ All CSV source tests passed")
 
@@ -932,7 +932,7 @@ def test_document_output_unchanged():
     # Spot check: verify first member doc has correct structure
     first_member = member_docs[0]
     assert first_member["id"] == "member_eligibility_1"
-    assert "BSC100001" in first_member["text"]
+    assert "WHP100001" in first_member["text"]
     assert first_member["metadata"]["domain"] == "eligibility"
     assert first_member["metadata"]["source_type"] == "internal"
     

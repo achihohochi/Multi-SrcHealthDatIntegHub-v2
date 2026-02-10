@@ -26,7 +26,7 @@ class TaxonomyTagger:
     
     Example:
         >>> tagger = TaxonomyTagger()
-        >>> content = "Member ID: BSC100001, Status: active, Plan Type: Gold PPO"
+        >>> content = "Member ID: WHP100001, Status: active, Plan Type: Gold PPO"
         >>> metadata = tagger.tag_document(content, "data/internal/member_eligibility.csv")
         >>> print(metadata['domain'])
         'eligibility'
@@ -257,7 +257,7 @@ def main():
     # Sample content for each domain
     sample_contents = [
         {
-            "content": "Member ID: BSC100001, Status: active, Plan Type: Gold PPO, "
+            "content": "Member ID: WHP100001, Status: active, Plan Type: Gold PPO, "
                       "Effective Date: 2024-01-01, Member Name: John Doe",
             "filepath": "data/internal/member_eligibility.csv",
             "expected_domain": "eligibility"

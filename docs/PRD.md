@@ -44,7 +44,7 @@ The RAG pipeline ingests six data sources, classifies them into healthcare domai
 
 | Role | Primary need | Example query |
 |------|-------------|---------------|
-| Operations staff | Instant eligibility and benefits lookup | "Is member BSC100001 eligible for this procedure?" |
+| Operations staff | Instant eligibility and benefits lookup | "Is member WHP100001 eligible for this procedure?" |
 | Compliance officers | Regulatory change monitoring | "What are the new CMS prior authorization requirements?" |
 | Customer service reps | Unified coverage and provider answers | "Find cardiologists in Oakland accepting Gold PPO" |
 | Data analysts | Source quality and freshness visibility | "Show data quality metrics across all sources" |

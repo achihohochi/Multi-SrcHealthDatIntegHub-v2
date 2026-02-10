@@ -302,7 +302,7 @@ The TaxonomyTagger classifies documents using regex keyword matching against six
     "domain": "eligibility",
     "source_type": "internal",
     "data_classification": "PII",
-    "text": "Member ID: BSC100001. Status: active. Plan Type: Gold PPO...",
+    "text": "Member ID: WHP100001. Status: active. Plan Type: Gold PPO...",
     "timestamp": "2025-01-26T10:30:00"
   }
 }

@@ -2,7 +2,7 @@
   "claims": [
     {
       "claim_id": "CLM-2025-001234",
-      "member_id": "BSC100001",
+      "member_id": "WHP100001",
       "service_date": "2025-01-15",
       "provider_npi": "1234567890",
       "provider_name": "Oakland Medical Group",
@@ -22,7 +22,7 @@
     },
     {
       "claim_id": "CLM-2025-001235",
-      "member_id": "BSC100002",
+      "member_id": "WHP100002",
       "service_date": "2025-01-10",
       "provider_npi": "9876543210",
       "provider_name": "Bay Area Cardiology",
@@ -42,7 +42,7 @@
     },
     {
       "claim_id": "CLM-2025-001236",
-      "member_id": "BSC100003",
+      "member_id": "WHP100003",
       "service_date": "2025-01-12",
       "provider_npi": "5555555555",
       "provider_name": "East Bay Orthopedics",
@@ -62,7 +62,7 @@
     },
     {
       "claim_id": "CLM-2025-001237",
-      "member_id": "BSC100004",
+      "member_id": "WHP100004",
       "service_date": "2025-01-08",
       "provider_npi": "1111111111",
       "provider_name": "Kaiser Permanente Oakland",
@@ -82,7 +82,7 @@
     },
     {
       "claim_id": "CLM-2025-001238",
-      "member_id": "BSC100005",
+      "member_id": "WHP100005",
       "service_date": "2025-01-05",
       "provider_npi": "2222222222",
       "provider_name": "Berkeley Pediatrics",
@@ -102,7 +102,7 @@
     },
     {
       "claim_id": "CLM-2025-001239",
-      "member_id": "BSC100007",
+      "member_id": "WHP100007",
       "service_date": "2025-01-14",
       "provider_npi": "3333333333",
       "provider_name": "Alameda Urgent Care",
@@ -122,7 +122,7 @@
     },
     {
       "claim_id": "CLM-2025-001240",
-      "member_id": "BSC100008",
+      "member_id": "WHP100008",
       "service_date": "2025-01-11",
       "provider_npi": "4444444444",
       "provider_name": "Summit Physical Therapy",
@@ -142,7 +142,7 @@
     },
     {
       "claim_id": "CLM-2025-001241",
-      "member_id": "BSC100009",
+      "member_id": "WHP100009",
       "service_date": "2025-01-13",
       "provider_npi": "6666666666",
       "provider_name": "East Bay Dermatology",
@@ -162,7 +162,7 @@
     },
     {
       "claim_id": "CLM-2025-001242",
-      "member_id": "BSC100010",
+      "member_id": "WHP100010",
       "service_date": "2025-01-09",
       "provider_npi": "7777777777",
       "provider_name": "Women's Health Associates",
@@ -182,7 +182,7 @@
     },
     {
       "claim_id": "CLM-2025-001243",
-      "member_id": "BSC100011",
+      "member_id": "WHP100011",
       "service_date": "2025-01-07",
       "provider_npi": "8888888888",
       "provider_name": "Alta Bates Imaging Center",

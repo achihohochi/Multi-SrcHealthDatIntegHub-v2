@@ -245,7 +245,7 @@ Answer:"""
             List of 5 example question strings covering different domains.
         """
         return [
-            "Is metformin covered for member BSC100001?",
+            "Is metformin covered for member WHP100001?",
             "What are new CMS prior authorization requirements?",
             "Find cardiologists in Oakland accepting Gold PPO",
             "What drugs require step therapy?",

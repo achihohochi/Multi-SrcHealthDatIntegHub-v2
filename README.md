@@ -135,8 +135,8 @@ Open `http://localhost:3000`.
 
 **Multi-source retrieval:**
 ```
-Q: "Is metformin covered for member BSC100001 on their Gold PPO plan?"
-A: Member BSC100001 has Gold PPO coverage. Metformin is a Tier 1 generic
+Q: "Is metformin covered for member WHP100001 on their Gold PPO plan?"
+A: Member WHP100001 has Gold PPO coverage. Metformin is a Tier 1 generic
    medication with a $15 copay for a 30-day supply. No prior authorization
    required.
 

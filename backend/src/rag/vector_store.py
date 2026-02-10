@@ -353,17 +353,17 @@ def main():
             },
             {
                 "id": "sample_doc_2",
-                "text": "Member ID BSC100001 has active status with Gold PPO plan effective since 2024-01-01.",
+                "text": "Member ID WHP100001 has active status with Gold PPO plan effective since 2024-01-01.",
                 "metadata": {
                     "domain": "eligibility",
                     "source_type": "internal",
-                    "member_id": "BSC100001",
+                    "member_id": "WHP100001",
                     "data_classification": "PII"
                 }
             },
             {
                 "id": "sample_doc_3",
-                "text": "Claim CLM-2025-001234 processed for member BSC100001 with CPT code 99213 for office visit.",
+                "text": "Claim CLM-2025-001234 processed for member WHP100001 with CPT code 99213 for office visit.",
                 "metadata": {
                     "domain": "claims",
                     "source_type": "internal",
