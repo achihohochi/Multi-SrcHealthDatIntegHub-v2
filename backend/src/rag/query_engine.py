@@ -7,6 +7,7 @@ source citation.
 """
 
 import os
+import re
 import sys
 from typing import Dict, List, Optional
 
@@ -85,14 +86,27 @@ class RAGQueryEngine:
             domain, match_count = self.tagger._detect_domain(question)
             domains_searched = []  # We search across all domains
 
-            # Step 2: Retrieve relevant documents from Pinecone
-            # Don't filter by domain - let semantic search find the best matches
-            filter_dict = None
+            # Step 2: Retrieve relevant documents from Pinecone.
+            # If the query names a specific member ID, do a targeted metadata lookup
+            # and merge it with the general semantic results so the member's own
+            # eligibility record is always included in the context.
+            member_id_match = re.search(r'\b([A-Z]{2,4}\d{4,})\b', question, re.IGNORECASE)
             retrieved_docs = self.vector_store.query(
                 query_text=question,
                 top_k=top_k,
-                filter_dict=filter_dict
+                filter_dict=None
             )
+            if member_id_match:
+                member_id = member_id_match.group(1).upper()
+                member_docs = self.vector_store.query(
+                    query_text=question,
+                    top_k=1,
+                    filter_dict={"member_id": {"$eq": member_id}}
+                )
+                existing_ids = {d["id"] for d in retrieved_docs}
+                for doc in member_docs:
+                    if doc["id"] not in existing_ids:
+                        retrieved_docs.insert(0, doc)
 
             # Step 3: Format retrieved documents as context
             context = self._format_context(retrieved_docs)
@@ -205,7 +219,7 @@ Answer:"""
 
         try:
             response = self.openai_client.chat.completions.create(
-                model="gpt-4",
+                model="gpt-4o",
                 messages=[
                     {"role": "system", "content": (
                         "You are a healthcare data assistant. You ONLY answer questions "
@@ -245,11 +259,11 @@ Answer:"""
             List of 5 example question strings covering different domains.
         """
         return [
-            "Is metformin covered for member WHP100001?",
             "What are new CMS prior authorization requirements?",
             "Find cardiologists in Oakland accepting Gold PPO",
             "What drugs require step therapy?",
-            "Are telehealth services still covered in 2025?"
+            "Are telehealth services still covered in 2025?",
+            "Is metformin covered for member BSC100001?",
         ]
 
 
